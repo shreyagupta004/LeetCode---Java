@@ -1,5 +1,5 @@
 package easy;
-public class Q268_MissingNumbers{
+public class Q0268_MissingNumbers{
     public static void main(String args[]){
         int nums[] = {0,2,3};
        System.out.println(missingNumber(nums));
