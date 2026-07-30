@@ -2,7 +2,7 @@ package easy;
 
 public class Q0507_PerfectNumber {
     public static void main(String[] args) {
-        System.out.println(findPerfectNumber(7));
+        System.out.println(findPerfectNumber(28));
         
     }
     public static boolean findPerfectNumber(int num){
