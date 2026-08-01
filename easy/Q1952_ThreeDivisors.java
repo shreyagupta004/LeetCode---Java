@@ -16,8 +16,6 @@ public class Q1952_ThreeDivisors {
              return true;
          }else{
             return false;
-           }
-        
-    
+           } 
     }
 }
