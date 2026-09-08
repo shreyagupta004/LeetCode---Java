@@ -1,7 +1,5 @@
 package easy;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Q0412_FizzBuzz {
     public static void main(String[] args) {

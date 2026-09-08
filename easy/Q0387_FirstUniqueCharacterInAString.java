@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class Q0387_FirstUniqueCharacterInAString {
     public static void main(String args[]){
+
         String s = "loveleetcode";
         int result = firstUniqChar(s);
         System.out.println(result);
@@ -16,7 +17,9 @@ public class Q0387_FirstUniqueCharacterInAString {
         for(Character chr : s.toCharArray()){
             map.put(chr , map.getOrDefault(chr , 0) + 1);
         }
+
          for (int i = 0; i < s.length(); i++) {
+            
             if (map.get(s.charAt(i)) == 1) {
                 return i;
             }

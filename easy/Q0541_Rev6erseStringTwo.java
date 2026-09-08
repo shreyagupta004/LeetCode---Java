@@ -4,8 +4,8 @@ public class Q0541_Rev6erseStringTwo {
     public static void main(String[] args) {
         String s = "abcdefg";
         int k = 2;
-    String res =   reverseStr(s, k);
-    System.out.println(res);  
+       String res =   reverseStr(s, k);
+       System.out.println(res);  
     }
      public static String reverseStr(String s, int k) {
         char arr[] = s.toCharArray();

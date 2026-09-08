@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Q0118_PascalsTriangle {
     public static void main(String args[]){
+        
         Q0118_PascalsTriangle obj = new Q0118_PascalsTriangle();
         int numRows = 5;
         List<List<Integer>> result = obj.generate(numRows);

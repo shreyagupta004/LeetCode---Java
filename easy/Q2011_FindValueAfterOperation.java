@@ -3,6 +3,7 @@ package easy;
 public class Q2011_FindValueAfterOperation {
     public static void main(String[] args) {
         String [] operations =  {"--X", "X++", "X++"};
+        
          Q2011_FindValueAfterOperation obj = new Q2011_FindValueAfterOperation();
 
         int ans = obj.finalValueAfterOperations(operations);

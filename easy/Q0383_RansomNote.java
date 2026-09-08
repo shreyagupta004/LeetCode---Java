@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Q0383_RansomNote {
     public static void main(String[] args) {
         String ranSome = "aa";
-        String magazine = "b";
+        String magazine = "aab";
         Q0383_RansomNote obj = new Q0383_RansomNote();
         boolean result = obj.canConstruct(ranSome, magazine);
         System.out.println(result);

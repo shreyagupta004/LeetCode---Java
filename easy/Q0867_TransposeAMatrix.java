@@ -9,8 +9,7 @@ public class Q0867_TransposeAMatrix {
                 System.out.print(result[i][j] + " ");
             }
             System.out.println();
-        }
-        
+        }  
     }
     public static int[][] transposeAMatrix(int [][] matrix){
         int rows = matrix.length;

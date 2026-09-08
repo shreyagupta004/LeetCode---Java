@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Q0389_FindTheDifference {
     public static void main(String[] args) {
         String s = "abcd";
-        String t = "abcdef";
+        String t = "abcde";
         char res = findDifference(s, t);
         System.out.println(res);
         
@@ -20,6 +20,7 @@ public class Q0389_FindTheDifference {
 
         for(Character ch : t.toCharArray()){
             int count = map.getOrDefault(ch, 0);
+            
             if(count == 0){
                 return ch;
             }

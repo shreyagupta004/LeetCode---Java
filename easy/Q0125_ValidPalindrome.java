@@ -6,7 +6,7 @@ public class Q0125_ValidPalindrome{
         boolean res = validPalindrome(s);
         System.out.println(res);
 
-
+        
     }
     public static boolean validPalindrome(String s){
 

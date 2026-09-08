@@ -1,4 +1,4 @@
-package easy;
+package Medium;
 
 public class Q0007_ReverseInteger {
  public static void main(String[] args) {

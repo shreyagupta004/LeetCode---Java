@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class Q0202_HappyNumber {
     public static void main(String[] args) {
+        
         int n = 19;
         boolean res = isHappy(n);
         System.out.println(res);
