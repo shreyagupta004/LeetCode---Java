@@ -1,6 +1,6 @@
 package easy;
 
-public class Q0026RemoveDuplicatesFromSortedArray {
+public class Q0026_RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
         int nums[] = {1,2,2,3,5,5,7};
         int result = removeDuplicates(nums);
