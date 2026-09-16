@@ -25,9 +25,6 @@ public class Q0657_RobotReturnsToOrigin {
             else if(s.charAt(i) == 'R'){
                 x++;
             }
-            // if(x == 0 && y == 0){
-            //     return true;
-            // }
             
         }
         return x == 0 && y == 0;
